@@ -71,18 +71,8 @@ h2.titulo3{
     color: #e6d5b8;
     font-size: 35px;
     text-align: center;
-    padding: 100px;
-}
-
-h2.titulo span{
-    color: #ffe500;
-}
-h2.titulo2 span{
-    color: #ffe500;
-}
-
-h2.titulo3 span{
-    color: #ffe500;
+    margin-top: 100px;
+    margin-bottom: 40px;
 }
 
 /* ESTILO CABEÇALHO */
@@ -99,7 +89,6 @@ header > .interface{
     align-items: center;
     justify-content: space-between;
 }
-
 
 header a{
     color: #837816;
@@ -329,6 +318,11 @@ section.sobre .txtsobre .pbl_contato button{
     margin-left: 75%;
 }
 
+section.sobre .txtsobre .pbl_contato button:hover{
+    transform: scale(1.05);
+    transition: 0.1s;
+}
+
 /* ESTILO PROJETOS */
 
 section.projetos .projeto{
@@ -375,7 +369,6 @@ form{
     justify-content: center;
     flex-direction: column;
     gap: 10px;
-    margin-top: 40px;
 }
 
 form input{
