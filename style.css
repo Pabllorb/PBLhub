@@ -20,7 +20,7 @@ body{
 }
 
 .interface{
-    max-width: 1440px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 
@@ -54,7 +54,7 @@ h1::after{
 }
 
 h2.titulo{
-    margin-top: 40px;
+    margin-top: 100px;
     color: #e6d5b8;
     font-size: 35px;
     text-align: center;
@@ -133,8 +133,8 @@ section.topo_do_site .flex{
 }
 .topo_do_site .txt_topo_site h1{
     color: #e6d5b8;
-    font-size: 38px;
-    line-height: 10px;
+    font-size: 30px;
+    line-height: 2px;
 }
 
 .topo_do_site .txt_topo_site p{
@@ -315,7 +315,7 @@ section.sobre .txtsobre .btn_redes button:hover{
 
 section.sobre .txtsobre .pbl_contato button{
     color: #141414;
-    margin-left: 75%;
+    margin-left: 65%;
 }
 
 section.sobre .txtsobre .pbl_contato button:hover{
@@ -353,7 +353,7 @@ section.projetos .projeto{
 .projetos .projeto h3{
     color: #d81732;
     font-size: 20px;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 /* ESTILO CONTATO */
