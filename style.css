@@ -155,15 +155,15 @@ section.topo_do_site .flex{
 
 .topo_do_site .img_topo_site img{
     position: relative;
-    animation: flutua 2s ease-in-out infinite alternate;
+    animation: flutua 3s ease-in-out infinite alternate;
 }/* animação de imagem */
 
 @keyframes flutua{
     0%{
-        left: 0;
+        left: -50px;
     }
     100%{
-        left: 50px;
+        left: 20px;
     }
 }/* animação de imagem */
 
