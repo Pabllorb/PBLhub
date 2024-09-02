@@ -54,7 +54,7 @@ h1::after{
 }
 
 h2.titulo{
-    margin-top: 100px;
+    margin-top: 40px;
     color: #e6d5b8;
     font-size: 35px;
     text-align: center;
@@ -173,12 +173,10 @@ section.skills {
     padding: 40px 4%;
 }
 
-section.skills hr{
-    color: #d81732;
-}
-
 section.skills .flex{
-    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
     padding-top: 60px;
 }
 
@@ -199,25 +197,23 @@ section.skills .flex{
 .skills .softskills img{
     color: #ffe500;
     height: 80px;
-    align-content: center;
-    
-    
+    margin: 20px;   
 }
 
 .skills .softskills h3{
-    margin-top: 20px;
+    padding: 20px;
     font-size: 20px;
     color: #d81732;
     line-height: 20px;
 }
 
 .skills .softskills p{
-    padding-top: 20px;
-    text-align: left;
+    padding: 20px;
 }
 
 
 /* ESTILO HARDSKILLS */
+
 
 .skills .hardskills{
     color: #e6d5b8;
@@ -225,8 +221,6 @@ section.skills .flex{
     border-radius: 80px;
     margin-bottom: 40px;
 }
-
-
 
 .skills .hardskills:hover{
     box-shadow: 0 0 40px #ffe60083;
@@ -238,21 +232,18 @@ section.skills .flex{
 .skills .hardskills img{
     color: #ffe500;
     height: 80px;
-    align-content: center;
-    
-    
+    margin: 20px;
 }
 
 .skills .hardskills h3{
-    margin-top: 20px;
+    padding: 20px;
     font-size: 20px;
     color: #d81732;
     line-height: 20px;
 }
 
 .skills .hardskills p{
-    padding-top: 20px;
-    text-align: left;
+    padding: 20px;
 }
 
 /* ESTILO SOBRE MIM */
@@ -288,6 +279,10 @@ section.sobre .txtsobre p{
     color: #e6d5b8;
     font-size: 18px;
     padding: 20px;
+}
+
+section.sobre .txtsobre p span{
+    color: #d81732;
 }
 
 section.sobre .txtsobre button img{
