@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fustat:wght@200..800&family=Playwrite+HR:wght@100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <!-- FIM GOOGLE FONTS -->
+    <script src="menu.js" defer></script>
 </head>
 <body>
     <!-- INÍCIO CABEÇALHO -->
@@ -18,7 +19,7 @@
         <div class="interface">
             <div class="logo">
                 <a href="#">
-                    <img src="Image/pblhub_logo.png" alt="logo_pbl" id="img">
+                    <img class="img-cabecalho" src="Image/pblhub_logo.png" alt="logo_pbl">
                 </a>
             </div><!---encerra Logo-->
             <nav class="menu_desktop">
@@ -35,6 +36,28 @@
                 </a>
             </div><!---encerra pbl_contato-->
 
+            <!-- Menu Mobile -->
+            <div class="btn-abre-menu" id="btn-menu">
+                <img src="Image/icons/menu-burger.png" alt="">
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <img src="Image/icons/marca-cruzada.png" alt="">
+                </div>
+                
+                <nav class="nav-menu">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="#skills">SKILLS</a></li>
+                        <li><a href="#sobre">SOBRE MIM</a></li>
+                        <li><a href="#projeto">PROJETOS</a></li>
+                        <li><a href="#contato">CONTATO</a></li>
+                    </ul>
+                </nav>
+            </div><!-- Encerra menu mobile -->
+
+            <div class="overlay-menu" id="overlay-menu"></div>
         </div><!---encerra intercace-->
     </header><!-- ENCERRA CABEÇALHO -->
     <main>
